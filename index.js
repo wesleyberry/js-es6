@@ -103,3 +103,6 @@
 
 // -----------------------------------------------------------
 // padStart() and padEnd
+let example = 'Wesley';
+
+console.log(example.padEnd(10, 'a'));
