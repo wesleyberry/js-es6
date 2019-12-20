@@ -12,12 +12,19 @@
 // console.log(`${firstName} ${lastName}`);
 // ------------------------------------------------------
 // Destructuring Arrays
-let [firstName, middleName, lastName] = ['Wesley', 'Coding Genius', 'Berry'];
+// let [firstName, middleName, lastName] = ['Wesley', 'Coding Genius', 'Berry'];
 
-lastName = 'Gordon';
+// lastName = 'Gordon';
 
-console.log(firstName)
-console.log(middleName)
-console.log(lastName)
+// console.log(firstName)
+// console.log(middleName)
+// console.log(lastName)
 // -------------------------------------------------------
 // Object Literal
+function addressMaker(city, state) {
+    const newAddress = {city, state};
+
+    console.log(newAddress);
+}
+
+addressMaker('San Marcos', 'Texas');
