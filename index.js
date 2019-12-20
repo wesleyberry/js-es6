@@ -30,14 +30,22 @@
 // addressMaker('San Marcos', 'Texas');
 // -------------------------------------------------------
 // Object Literal Challenge
-function addressMaker(address) {
-    const {city, state} = address;
-    const newAddress = {
-        city, 
-        state,
-        country: 'United States of America'
-    };
-    console.log(`${newAddress.city} ${newAddress.state} ${newAddress.country}`);
-}
+// function addressMaker(address) {
+//     const {city, state} = address;
+//     const newAddress = {
+//         city, 
+//         state,
+//         country: 'United States of America'
+//     };
+//     console.log(`${newAddress.city} ${newAddress.state} ${newAddress.country}`);
+// }
 
-addressMaker({ city: 'San Marcos', state: 'Texas'});
+// addressMaker({ city: 'San Marcos', state: 'Texas'});
+// -------------------------------------------------------
+// For of Loop
+let fullName = 'Wesley Berry';
+
+for(const char of fulName) {
+    console.log(char);
+}
+console.log(total);
