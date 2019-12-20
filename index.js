@@ -60,9 +60,17 @@
 
 // -----------------------------------------------------------
 // Spread Operator
-let example1 = [1,2,3,4,5,6];
+// let example1 = [1,2,3,4,5,6];
 
-let example2 = [...example1];
-example2.push(true);
+// let example2 = [...example1];
+// example2.push(true);
 
-console.log(example2);
+// console.log(example2);
+
+// -----------------------------------------------------------
+// rest Operator
+function add(...nums) {
+    console.log(nums);
+}
+
+add(4, 5, 7, 8, 12);
