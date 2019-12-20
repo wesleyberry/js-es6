@@ -10,6 +10,7 @@
 // const {firstName, lastName} = personalInfo;
 
 // console.log(`${firstName} ${lastName}`);
+
 // ------------------------------------------------------
 // Destructuring Arrays
 // let [firstName, middleName, lastName] = ['Wesley', 'Coding Genius', 'Berry'];
@@ -19,6 +20,7 @@
 // console.log(firstName)
 // console.log(middleName)
 // console.log(lastName)
+
 // -------------------------------------------------------
 // Object Literal
 // function addressMaker(city, state) {
@@ -28,6 +30,7 @@
 // }
 
 // addressMaker('San Marcos', 'Texas');
+
 // -------------------------------------------------------
 // Object Literal Challenge
 // function addressMaker(address) {
@@ -41,11 +44,19 @@
 // }
 
 // addressMaker({ city: 'San Marcos', state: 'Texas'});
+
 // -------------------------------------------------------
 // For of Loop
-let fullName = 'Wesley Berry';
+// let fullName = 'Wesley Berry';
 
-for(const char of fulName) {
-    console.log(char);
-}
-console.log(total);
+// for(const char of fulName) {
+//     console.log(char);
+// }
+// console.log(total);
+
+// -------------------------------------------------------
+// For of Loop Challenge
+// Do not use let in for of loop
+
+// -----------------------------------------------------------
+// Spread Operator
