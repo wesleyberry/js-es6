@@ -21,10 +21,23 @@
 // console.log(lastName)
 // -------------------------------------------------------
 // Object Literal
-function addressMaker(city, state) {
-    const newAddress = {city, state};
+// function addressMaker(city, state) {
+//     const newAddress = {city, state};
 
-    console.log(newAddress);
+//     console.log(newAddress);
+// }
+
+// addressMaker('San Marcos', 'Texas');
+// -------------------------------------------------------
+// Object Literal Challenge
+function addressMaker(address) {
+    const {city, state} = address;
+    const newAddress = {
+        city, 
+        state,
+        country: 'United States of America'
+    };
+    console.log(`${newAddress.city} ${newAddress.state} ${newAddress.country}`);
 }
 
-addressMaker('San Marcos', 'Texas');
+addressMaker({ city: 'San Marcos', state: 'Texas'});
