@@ -89,9 +89,17 @@
 
 // -----------------------------------------------------------
 // Default Params
-function add(numArray = []) {
-    let total = 0;
-    numArray.forEach(element => total += element)
-    console.log(total);
-}
-add();
+// function add(numArray = []) {
+//     let total = 0;
+//     numArray.forEach(element => total += element)
+//     console.log(total);
+// }
+// add();
+
+// -----------------------------------------------------------
+// Includes()
+// let numArray = [1,2,3,4,5];
+// console.log(numArray.includes(0));
+
+// -----------------------------------------------------------
+// padStart() and padEnd
