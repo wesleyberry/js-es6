@@ -77,12 +77,21 @@
 
 // -----------------------------------------------------------
 // Arrow Functions
-add = (...nums) => {
+// add = (...nums) => {
     // let total = nums.reduce(function (x, y) {
     //     return x + y;
     // });
     // vs
-    let total = nums.reduce((x, y) => x + y);
+//     let total = nums.reduce((x, y) => x + y);
+//     console.log(total);
+// }
+// add(4, 5, 7, 8, 12);
+
+// -----------------------------------------------------------
+// Default Params
+function add(numArray = []) {
+    let total = 0;
+    numArray.forEach(element => total += element)
     console.log(total);
 }
-add(4, 5, 7, 8, 12);
+add();
