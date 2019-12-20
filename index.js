@@ -124,11 +124,20 @@
 //     .then(json => console.log(json[0]))
 //     .catch(err => console.log(err));
 // }
-async function getTop100Campers() {
-    const response = await fetch(apiURL);
-    const json = await response.json();
+// async function getTop100Campers() {
+//     const response = await fetch(apiURL);
+//     const json = await response.json();
 
-    console.log(json[0]);
-}
+//     console.log(json[0]);
+// }
 
-getTop100Campers();
+// getTop100Campers();
+
+// -----------------------------------------------------------
+// Sets
+const sampleSet = new Set([1,1,1,1,2,2,2,2]);
+sampleSet.add(5);
+sampleSet.delete(5);
+sampleSet.has(2);
+sampleSet.clear();
+console.log(sampleSet);
